@@ -10,7 +10,7 @@ from utils.result_logger import Logger
 from models import get_models
 from data import get_dataset
 
-
+ 
 '''
 Example:
     python train.py --name nn-reg-test   --dataset sharpcut-reuse  --model regDualModel  --network regCorrDualNet-vgg16-layer2-0  --loss mse+diceLoss+0.01*mmd  --val_type 0.2-split 
